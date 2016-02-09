@@ -16,11 +16,11 @@ Gem::Specification.new do |gem|
   gem.version       = Smspilot::VERSION
 
 
-  gem.add_runtime_dependency "faraday", '~> 0.8.1'
-  gem.add_runtime_dependency "faraday_middleware", '~> 0.8.8'
+  gem.add_runtime_dependency "faraday"
+  gem.add_runtime_dependency "faraday_middleware"
   gem.add_runtime_dependency 'hashie'
 
-  gem.add_development_dependency 'rspec', '~> 2.5'
+  gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'webmock'
   gem.add_development_dependency 'pry'
 
